@@ -1,0 +1,242 @@
+
+
+
+.navbar{
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 0 5px 10px #BDBDBD;
+}
+
+/*.navbar-link{
+    margin-right: 1em !important;
+}*/
+
+.navbar-link{
+    color: hsl(0, 0%, 0%);
+    transition: 500ms;
+    
+}
+
+.nav-link{
+    color: black;
+    
+}
+
+.navbar-brand, a{
+    margin-top: 0em;
+    width: 100;
+    height: 100;
+    padding-left: 20px;
+
+}
+
+
+.navbar-link, a:hover{
+    color: hsl(122, 89%, 7%);
+    background: hsl(51, 66%, 57%);
+    border-radius: 5px;
+
+}
+
+
+
+
+.container {
+    padding: 2rem 0rem;
+    /*background-color: hsl(122, 89%, 7%);*/
+    width: 50;
+    height: 50;
+    margin: center;
+  }
+
+  .trecipes h1{
+    color: hsl(122, 89%, 7%);
+    font-weight: 400;
+    margin-bottom: 25px;
+    padding-top: 25px;
+  }
+  
+  h4 {
+    margin: 2rem 0rem;
+  }
+  
+  
+  
+     .trecipes{
+         margin-bottom: 1rem;
+         margin-right: 3rem;
+         margin-left: 2rem;
+     }
+
+ body /*{
+        padding: 2rem 0rem;
+      }*/
+      
+      .card-img {
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+      }
+      
+      .card-title {
+        margin-bottom: 0.3rem;
+      }
+      
+      .cat {
+        display: inline-block;
+        margin-bottom: 1rem;
+      }
+      
+      .fa-users {
+        margin-left: 1rem;
+      }
+      
+      .card-footer {
+        font-size: 0.8rem;
+      }
+
+
+
+
+      .blog{
+        margin: 4em;
+        position: relative;
+    }
+    
+    .blog .item{
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .blog .des{
+        background: hsl(122, 89%, 7%);
+        color: white;
+        text-align: center;
+        border-top-right-radius: 93%;
+        transition: 0.4s ease-in-out;
+        /* 0.4s = 400ms 
+        */
+        position: absolute;
+        width: 89%;
+        bottom: 24px;
+    }
+    
+    .blog .des h6{
+        font-size: 1.1em;
+    }
+    
+    .blog .item:hover .des{
+        height: 100%;
+        background: hsl(51, 66%, 57%);
+        position: absolute;
+        top: 0;
+        width: 92%;
+        padding: 5em;
+        border-top-right-radius: 0;
+        opacity: 0.7;
+        cursor: pointer;
+    }
+    
+    
+    .blog .item:hover .des h6{
+        font-size: 2.0em;
+        font-weight: 600;
+        color: rgb(0, 65, 27);
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS FOR MY trendingR SECTION */
+.blog{
+    margin: 4em;
+    position: relative;
+}
+
+.blog .item{
+    position: relative;
+    overflow: hidden;
+}
+
+.blog .des{
+    background: rgb(0, 182, 137);
+    color: white;
+    text-align: center;
+    border-top-right-radius: 93%;
+    transition: 0.4s ease-in-out;
+    /* 0.4s = 400ms 
+    */
+    position: absolute;
+    width: 89%;
+    bottom: 24px;
+}
+
+.blog .des h6{
+    font-size: 1.1em;
+}
+
+.blog .item:hover .des{
+    height: 100%;
+    background: rgb(70, 224, 186);
+    position: absolute;
+    top: 0;
+    width: 92%;
+    padding: 5em;
+    border-top-right-radius: 0;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+
+.blog .item:hover .des h6{
+    font-size: 2.0em;
+    font-weight: 600;
+    color: rgb(0, 65, 27);
+}
+
+
+/* CUSTOM CSS FOR MY SCROLL BAR */
+::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 2px;
+    border-radius: none;
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: hsl(122, 89%, 7%);
+    border-radius: none;
+ }
+

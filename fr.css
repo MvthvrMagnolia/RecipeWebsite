@@ -1,0 +1,530 @@
+.navbar{
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 0 5px 10px #BDBDBD;
+}
+
+
+.navbar-link{
+    color: hsl(128, 91%, 35%);
+    transition: 250ms;
+    
+}
+
+.nav-link{
+    color: black;
+    
+}
+
+.navbar-brand, a{
+    margin-top: 0em;
+    width: 70;
+    height: 50;
+    /* padding-left: 80px; */
+    margin-left: 29px;
+    font-weight: 700;
+
+}
+
+.navbar-toggler{
+    display: inline-block; 
+    width: 4.4em;
+    height: 1.5em;
+    /* vertical-align: middle; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%
+
+    }
+
+    .navbar-toggler-icon {
+        display: inline-block;
+        width: 15.5em;
+        height: -11.5em;
+        vertical-align: middle;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%
+
+     }
+
+
+        .description p {
+            color: white;
+            font-size: 1.1em;
+            font-weight: 500;
+            width: 67%;
+            line-height: 2;
+            text-align: center;
+            margin-left: 200px;
+        }
+
+
+        .nav-link {
+            display: block;
+            /* padding: .5rem 1rem; */
+            /* color: #0d6efd; */
+            text-decoration: none;
+            transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+        }
+    
+    .navbar-brand {
+        /* padding-top: .3125rem; */
+        /* padding-bottom: .3125rem; */
+        margin-right: 24rem;
+        /* font-size: 0.25rem; */
+        text-decoration: none;
+        white-space: nowrap;
+    }
+    
+    
+
+    .trecipes h1 {
+    margin-top: 29px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    color: hsl(122, 64, 23);
+}
+
+
+
+.row {
+    --bs-gutter-x: -0.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) * -.5);
+    margin-left: calc(var(--bs-gutter-x) * -.5);
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+
+.style {
+    background-color: #adb5bd;
+    color: green;
+}
+background-color: #adb5bd;
+    color: green;
+
+.btn-info {
+    color: #000;
+    background-color: #0df048;
+    border-color: #0df048;
+}
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    /* line-height: 1.5; */
+    /* color: #212529; */
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    /* padding: .375rem .75rem; */
+    font-size: 1rem;
+    border-radius: 1.25rem;
+    
+}
+
+
+.a {
+    /* color: #0d6efd; */
+    text-decoration: underline;
+}
+
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+.row {
+    /* --bs-gutter-x: -0.5rem; */
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) * -.5);
+    margin-left: calc(var(--bs-gutter-x) * -.5);
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+body {
+    /* margin: 0; */
+    font-family: var(--bs-font-sans-serif);
+    font-size: 1rem;
+    font-weight: 500;
+    /* line-height: 1.5; */
+    color: #212529
+     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar-link, a:hover{
+    color: hsl(122, 91%, 45%);
+     /* background: hsl(51, 66%, 57%);  */
+    /* border-radius: 5px; */
+
+}
+
+.navbar input[type=text] {
+    float: right;
+    padding: 6px;
+    border-radius: 5px;
+    margin-top: 4px;
+    margin-left: 600px;
+    /*font-size: 17px;*/
+  }
+
+/* Header CSS */
+.header{
+        position: sticky;
+        /* background-image: url(../images/team-leader-writing-on-white-board-picjumbo-com.jpg); */
+        background-position: center;
+        background-size: cover;
+}
+
+.header img{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    object-fit: cover;
+    padding:1rem; 
+    animation:float 3s linear infinite;
+}
+
+#query{
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button{
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+/* Header for Blog */
+header{
+    position: relative;
+    background-image: url(../images/team-leader-writing-on-white-board-picjumbo-com.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.overlay{
+    position: sticky;
+    left: 0;
+    top: 0;
+    min-height: 100%;
+    min-width: 100%;
+    background: hsl(120, 23%, 8%);
+    opacity: 0.8;
+    mix-blend-mode: overlay; 
+}
+
+.description{
+    position: absolute;
+    /*left: 400px;*/
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.description h1{
+    color: white;
+    font-weight: 700;
+}
+
+.description p{
+    color: white;
+    font-size: 1.1em;
+    font-weight: 500;
+    line-height: 2;
+    margin-left: 200px;
+    width: 67%;
+    text-align: center;
+
+}
+
+.description button{
+    border: hsl(51, 66%, 57%);
+    background: hsl(51, 66%, 57%);
+    color: hsl(122, 89%, 7%);
+}
+
+/* READ UP ON BOOTSTRAP DOCUMENTATION
+    1. Boostrap Components
+    2. Boostrap CSS e.g buttons,
+     navbar, dropdown, buttons,cards,
+     form, form-control, images,
+*/
+
+
+/* About US CSS */
+
+.about{
+    
+    margin-top: 2em;
+    position: relative;
+
+}
+
+.about h1{
+    color: hsl(122, 89%, 7%);
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.about img{
+    height: 100%;
+    width: 100%;
+    border: solid rgb(131, 131, 131);
+    border-radius: 20%;
+}
+
+.about span{
+    display: block;
+    color: #888;
+    position: absolute;
+    left: 125px;
+}
+
+.about .about-container{
+    padding: 2em;
+    border-left: 2px solid rgb(214, 214, 214);
+    background-color: hsl(51, 66%, 57%); ;
+}
+
+.about .about-container h3{
+    font-size: 3.2em;
+}
+
+
+.about .about-container p{
+    line-height: 2;
+}
+
+
+/* Trending CSS */
+.trending{
+    position: relative;
+    margin: 4em;
+}
+
+
+.trending h1{
+    color: hsl(122, 89%, 7%);
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.trending img{
+    margin: 1em;
+    width: 100%;
+    /*transition: 500ms;*/
+    /*opacity: 0.5;*/
+    cursor: pointer;
+    
+}
+
+.trending img:hover{
+    opacity: 6;
+    /* background: rgb(0, 182, 137); */
+}
+
+
+/* Contact US css */
+.contact-form{
+    position: relative;
+    margin: 6em;
+}
+
+.contact-form h1{
+    font-size: 3.2em;
+}
+
+.contact-form .myform{
+    max-width: 600px;
+}
+
+.contact-form .myform  .btn-success{
+    background:hsl(51, 66%, 57%);
+    color: hsl(122, 89%, 7%);
+    font-size: 22px;
+    padding: 15px;
+    transition: 500ms;
+    cursor: pointer;
+}
+
+.contact-form .myform  .btn-success:hover{
+    
+    border: 2px solid hsl(122, 89%, 7%);
+    background:hsl(51, 66%, 57%);
+    color: white;
+}
+
+
+
+/* CSS FOR MY BLOG SECTION */
+.blog{
+    margin: 4em;
+    position: relative;
+}
+
+.blog h1{
+    color: hsl(122, 89%, 7%);;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.blog .item{
+    position: relative;
+    overflow: hidden;
+}
+
+.blog .des{
+    background: hsl(122, 89%, 7%);
+    color: white;
+    text-align: center;
+    border-top-right-radius: 0;
+    transition: 0.4s ease-in-out;
+    /* 0.4s = 400ms 
+    */
+    position: absolute;
+    width: 100%;
+    bottom: 24px;
+}
+
+.blog .des h6{
+    font-size: 1.1em;
+}
+
+.blog .item:hover .des{
+    height: 100%;
+    background: hsl(51, 66%, 57%);
+    position: absolute;
+    top: 0;
+    width: 92%;
+    padding: 5em;
+    border-top-right-radius: 0;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+
+.blog .item:hover .des h6{
+    font-size: 2.0em;
+    font-weight: 600;
+    color: rgb(0, 65, 27);
+}
+
+.team h1{
+    color: hsl(122, 89%, 7%);;
+    font-weight: 400;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+
+/* CUSTOM CSS FOR MY SCROLL BAR */
+::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 2px;
+    border-radius: none;
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: hsl(122, 89%, 7%);
+    border-radius: none;
+ }
+
+
+
+/* For description.html*/
+.recipe-summary{
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.recipe-summary h1{
+    padding-bottom: 10px;
+    color: hsl(122, 89%, 7%);
+}
+
+.recipe-ingredients h2{
+    margin-left: 100px;
+    margin-top: 100px;
+    color: hsl(122, 89%, 7%);
+}
+
+.recipe-ingredients p{
+    padding-left: 100px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.method h2{
+    margin-left: 100px;
+    margin-top: 100px;
+    color: hsl(122, 89%, 7%);
+}
+
+.method p{
+    padding-left: 100px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.trecipes h2{
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        color: hsl(122, 89%, 7%);
+}
+
+.trecipes h1{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    color: hsl(122, 89%, 7%);
+}
+
+
+
+ 

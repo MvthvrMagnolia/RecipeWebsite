@@ -1,0 +1,264 @@
+.navbar{
+    background-color: hsl(51, 66%, 57%);
+}
+
+.navbar-link{
+    margin-right: 1em !important;
+}
+
+.navbar-link{
+    color: hsl(122, 89%, 7%);
+    transition: 500ms;
+}
+
+.navbar-brand, a{
+    margin-top: 0em;
+    width: 100;
+    height: 100;
+
+}
+
+
+.navbar-link, a:hover{
+    color: hsl(122, 89%, 7%);
+    background: white;
+
+}
+
+/* Header CSS */
+.header{
+        position: relative;
+        /* background-image: url(../images/team-leader-writing-on-white-board-picjumbo-com.jpg); */
+        background-position: center;
+        background-size: cover;
+}
+
+.header img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    object-fit: cover;
+    padding:1rem; 
+    animation:float 3s linear infinite;
+}
+
+
+/* Header for Blog */
+header{
+    position: relative;
+    background-image: url(../images/team-leader-writing-on-white-board-picjumbo-com.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    min-height: 100%;
+    min-width: 100%;
+    background: hsl(114, 96%, 9%);
+    mix-blend-mode:darken;
+    /* mix-blend-mode: overlay; */
+}
+
+.description{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+}
+
+.description h1{
+    color: white;
+}
+
+.description p{
+    color: white;
+    font-size: 1.1em;
+    /* font-weight: 200; */
+    width: 70%;
+    line-height: 2;
+}
+
+.description button{
+    border: hsl(51, 66%, 57%);
+    background: hsl(51, 66%, 57%);
+    color: hsl(122, 89%, 7%);
+}
+
+/* READ UP ON BOOTSTRAP DOCUMENTATION
+    1. Boostrap Components
+    2. Boostrap CSS e.g buttons,
+     navbar, dropdown, buttons,cards,
+     form, form-control, images,
+*/
+
+
+/* About US CSS */
+.about{
+    position: relative;
+    margin: 4em;
+}
+
+.about h1{
+    color: hsl(122, 89%, 7%);
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.about img{
+    height: 100%;
+    width: 100%;
+    border: solid rgb(131, 131, 131);
+    border-radius: 20%;
+}
+
+.about span{
+    display: block;
+    color: #888;
+    position: absolute;
+    left: 125px;
+}
+
+.about .about-container{
+    padding: 2em;
+    border-left: 2px solid rgb(214, 214, 214);
+}
+
+.about .about-container h3{
+    font-size: 3.2em;
+}
+
+
+.about .about-container p{
+    line-height: 2;
+}
+
+
+/* Mortagage CSS */
+.mortgage{
+    position: relative;
+    margin: 4em;
+}
+
+
+.mortgage h1{
+    color: hsl(122, 89%, 7%);;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.mortgage img{
+    margin: 1em;
+    width: 100%;
+    transition: 500ms;
+    opacity: 0.5;
+    cursor: pointer;
+    
+}
+
+.mortgage img:hover{
+    opacity: 6;
+    /* background: rgb(0, 182, 137); */
+}
+
+
+/* Contact US css */
+.contact-form{
+    position: relative;
+    margin: 6em;
+}
+
+.contact-form h1{
+    font-size: 3.2em;
+}
+
+.contact-form .myform{
+    max-width: 600px;
+}
+
+.contact-form .myform  .btn-success{
+    background:hsl(51, 66%, 57%);
+    color: hsl(122, 89%, 7%);
+    font-size: 22px;
+    padding: 15px;
+    transition: 500ms;
+    cursor: pointer;
+}
+
+.contact-form .myform  .btn-success:hover{
+    
+    border: 2px solid hsl(122, 89%, 7%);
+    background:hsl(51, 66%, 57%);
+    color: white;
+}
+
+
+
+/* CSS FOR MY BLOG SECTION */
+.blog{
+    margin: 4em;
+    position: relative;
+}
+
+.blog .item{
+    position: relative;
+    overflow: hidden;
+}
+
+.blog .des{
+    background: hsl(122, 89%, 7%);
+    color: white;
+    text-align: center;
+    border-top-right-radius: 93%;
+    transition: 0.4s ease-in-out;
+    /* 0.4s = 400ms 
+    */
+    position: absolute;
+    width: 89%;
+    bottom: 24px;
+}
+
+.blog .des h6{
+    font-size: 1.1em;
+}
+
+.blog .item:hover .des{
+    height: 100%;
+    background: hsl(51, 66%, 57%);
+    position: absolute;
+    top: 0;
+    width: 92%;
+    padding: 5em;
+    border-top-right-radius: 0;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+
+.blog .item:hover .des h6{
+    font-size: 2.0em;
+    font-weight: 600;
+    color: rgb(0, 65, 27);
+}
+
+
+/* CUSTOM CSS FOR MY SCROLL BAR */
+::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 5px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: hsl(122, 89%, 7%);
+    border-radius: 10px;
+     }
